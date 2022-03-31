@@ -1,0 +1,48 @@
+body{
+	font-family: Arial, Arial Black, Verdana, Trebuchet MS,Georgia, Tahoma, Courier New, Times New Roman, sans-serif;
+	background-color: #d9eee1;
+	margin: 0px;
+}
+
+
+.emphasize{
+	font-weight: bold;
+	color: white;
+}
+#header{
+	background-color: #04aa6d;
+	border: 1px solid #04aa6d;
+	padding: 10px;
+}
+.headerTitle{
+	color: #ee9c1b;
+}
+#contant{
+	margin: 10px;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+p::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}  
+
+/* selected link */
+a:active {
+  color: blue;
+}
