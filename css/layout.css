@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: [col1-start] 40%  [col2-start] 40%  [col3-start] 19.2% [col3-end];
+    grid-template-rows: [row1-start] 250px [row2-start] auto [row3-start] auto [row3-end];
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #3e5d67;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000;
+}
+
+header {
+    background: #efefef url("../images/header.png");
+    background-size: cover;
+    border-bottom-style: ridge;
+    border-bottom-width: 0px;
+
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start ;
+    padding: 0px;
+}
+
+header h1, h2 {
+    color: #fff;
+    font-size: 200%;
+}
+aside {
+    padding: 5px;
+    grid-column: col3-start ;
+    grid-row: row1-start / row3-start;
+}
+aside img {
+    width: 100%;
+    height: 240px;
+}
+aside ul {
+    list-style: none;
+    padding: 20px;
+    font-size: 16px;
+}
+aside li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0.25em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1em;
+    font-style: italic;
+
+    border-bottom: rgb(236, 224, 196) 2px solid;
+}
+aside a {
+    color: #11221a;
+    text-decoration: none;
+    font-style: normal;
+
+}
+.design-name{
+    text-transform: uppercase;
+}
+aside h3 {
+    text-align: center;
+    /*font-family: cursive;*/
+    color: #11221a;
+}
+.select {
+    border-bottom: #d4e8eb 2px double;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.contentLeft {
+    grid-column: col1-start;
+    grid-row: row2-start ;
+    background-color: #c2e3f5;
+}
+.contentRight {
+    grid-column: col2-start ;
+    grid-row: row2-start ;
+    background-color: #c2e3f5;
+}
+.contentLeft h3, .contentRight h3 {
+    margin: 2em 0 0 0;
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.contentLeft p, .contentRight p {
+    margin: 0.75em 0;
+    line-height: 2;
+    color: #325050;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+footer {
+    grid-column: col1-start / col3-end ;
+    grid-row: row3-start ;
+    background-color:#c8f7f7 !important;
+}
+
+footer a {
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    padding: 40px 0 0 0;
+    margin: 0 0.5em;
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+}
+
+#footer_p {
+    width: auto;
+    padding: 1em 12%;
+    margin: 0;
+    color: #11221a;
+    background: #3e5d67;
+    background-attachment: fixed, fixed, fixed, scroll;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+.link { color: #888963; }
+.link:hover { color: #76f576; }
