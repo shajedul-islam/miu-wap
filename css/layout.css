@@ -9,7 +9,7 @@ body {
     grid-template-rows: [row1-start] 250px [row2-start] auto [row3-start] auto [row3-end];
     background-color: #fff;
     color: #444;
-    max-width: 1100px;
+    max-width: 85%;
     margin: auto;
 }
 
