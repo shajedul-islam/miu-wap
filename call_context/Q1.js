@@ -21,5 +21,5 @@ let user = {
 // askPassword(user.loginOk.bind(user), user.loginFailed.bind(user)); //Bind Solution here the context of the object is bind with the helper bind function
 // alert(`apply solution `);
 // askPassword(() => user.loginOk.apply(user), () => user.loginFailed.apply(user)); // apply solution here the context of the object is wrapped with apply function
-alert(`call solution `);
+alert(`call context solution `);
 askPassword(() => user.loginOk.call(user), () => user.loginFailed.call(user));// call solution here the context of the object is wrapped with call function
